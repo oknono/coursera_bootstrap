@@ -1,13 +1,12 @@
-.row-header {
-  margin: 0 auto;
-  padding: 0 auto;
+body {
+  padding: 50px 0 0 0;
+  z-index: 0;
 }
 
-.row-content {
-  border-bottom: 1px ridge rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
-  min-height: 400px;
-  padding: 50px 0;
+.address {
+  color: #0f0f0f;
+  font-size: 80%;
+  margin: 0;
 }
 
 .footer {
@@ -23,17 +22,25 @@
   padding: 70px 30px;
 }
 
-.address {
-  color: #0f0f0f;
-  font-size: 80%;
-  margin: 0;
-}
-
-body {
-  padding: 50px 0 0 0;
-  z-index: 0;
-}
-
 .navbar-dark {
   background-color: #512da8;
+}
+
+.row-content {
+  border-bottom: 1px ridge rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  min-height: 400px;
+  padding: 50px 0;
+}
+
+.row-header {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.tab-content {
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 10px;
 }
